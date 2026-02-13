@@ -25,13 +25,6 @@ def main():
             
             for row in reader:
                 brand = row.get('Brand', '').strip()
-                # Use 'Device model name' as the primary model name, fallback to 'Model'
-                model_name = row.get('Device model name', '').strip()
-                if not model_name or model_name == '-':
-                    model_name = row.get('Model', '').strip()
-                
-                # Cleanup model name (remove quotes, newlines if any remain after csv parsing)
-                model_name = model_name.replace('\n', '').strip()
                 
                 # Adapted status
                 adapted = row.get('Adapted', '').strip().lower()
@@ -40,13 +33,30 @@ def main():
                     status = 'supported'
                 elif adapted == 'false':
                     status = 'unsupported'
+
+                # Collect potential model names
+                potential_models = set()
                 
-                if brand and model_name and model_name != '-':
-                    devices.append({
-                        "manufacturer": brand,
-                        "model": model_name,
-                        "status": status
-                    })
+                # 1. Device model name (e.g. "Samsung Galaxy A42 5G")
+                dmn = row.get('Device model name', '').strip()
+                if dmn and dmn != '-':
+                    potential_models.add(dmn)
+                    
+                # 2. Model (e.g. "SM-A426B")
+                model_code = row.get('Model', '').strip()
+                if model_code and model_code != '-':
+                     potential_models.add(model_code)
+                
+                for m_name in potential_models:
+                     # Cleanup
+                     m_name_clean = m_name.replace('\n', '').strip()
+                     
+                     if brand and m_name_clean:
+                        devices.append({
+                            "manufacturer": brand,
+                            "model": m_name_clean,
+                            "status": status
+                        })
     except Exception as e:
         print(f"Error parsing CSV: {e}")
         return
