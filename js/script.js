@@ -99,9 +99,42 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('ligar-detail').textContent = '載入設備列表時發生錯誤。';
     }
 
-    // 4. Check Support with Refined Data
-    checkSupport(vendor, model, arcoreDevices, 'arcore');
+    // 4. Check Support
+    // 4a. Check LiGAR Support (List-based)
     checkSupport(vendor, model, ligarDevices, 'ligar');
+
+    // 4b. Check ARCore Support (Hybrid: WebXR + List)
+    const arStatusEl = document.getElementById('arcore-status');
+    const arDetailEl = document.getElementById('arcore-detail');
+
+    // Default to loading
+    arStatusEl.classList.add('loading');
+    arStatusEl.textContent = '檢查中...';
+
+    // Try WebXR first (Real verification)
+    if (navigator.xr && navigator.xr.isSessionSupported) {
+        try {
+            const isArSupported = await navigator.xr.isSessionSupported('immersive-ar');
+            arStatusEl.classList.remove('loading');
+
+            if (isArSupported) {
+                arStatusEl.textContent = '支援 (WebXR)';
+                arStatusEl.classList.add('supported');
+                arDetailEl.textContent = '此設備與瀏覽器完全支援 WebXR AR 模式。';
+            } else {
+                // WebXR verification failed, fallback to list check
+                // This handles cases where hardware supports it but browser might not (e.g. incorrect flags)
+                // Or simply unsupported.
+                checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+            }
+        } catch (e) {
+            console.warn("WebXR check failed, falling back to database", e);
+            checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+        }
+    } else {
+        // No WebXR API, fallback to list
+        checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+    }
 });
 
 // Helper to get WebGL Renderer string
@@ -120,7 +153,7 @@ function getWebGLRenderer() {
     }
 }
 
-function checkSupport(vendor, model, deviceList, type) {
+function checkSupport(vendor, model, deviceList, type, suffix = '') {
     const statusElement = document.getElementById(`${type}-status`);
     const detailElement = document.getElementById(`${type}-detail`);
 
@@ -154,12 +187,12 @@ function checkSupport(vendor, model, deviceList, type) {
     });
 
     if (isSupported) {
-        statusElement.textContent = '支援';
+        statusElement.textContent = '支援' + suffix;
         statusElement.classList.add('supported');
         detailElement.textContent = `此設備型號 (${model}) 已列於 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中。`;
     } else {
         statusElement.textContent = '不支援';
         statusElement.classList.add('unsupported');
-        detailElement.textContent = `此設備 (${model}) 未在 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中找到。`;
+        detailElement.textContent = `此設備 (${model}) 未在 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中找到，且未檢測到 WebXR 支援。`;
     }
 }

@@ -1,13 +1,3918 @@
 [
-  { "manufacturer": "Google", "model": "Pixel 6" },
-  { "manufacturer": "Google", "model": "Pixel 6 Pro" },
-  { "manufacturer": "Google", "model": "Pixel 7" },
-  { "manufacturer": "Google", "model": "Pixel 7 Pro" },
-  { "manufacturer": "Google", "model": "Pixel 8" },
-  { "manufacturer": "Samsung", "model": "Galaxy S21" },
-  { "manufacturer": "Samsung", "model": "Galaxy S22" },
-  { "manufacturer": "Samsung", "model": "Galaxy S23" },
-  { "manufacturer": "Samsung", "model": "Galaxy S24" },
-  { "manufacturer": "Apple", "model": "iPhone" },
-  { "manufacturer": "Apple", "model": "iPad" }
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K50G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ZenFone 7 / 7 Pro (ZS670KS/ZS671KS)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip4"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 3 XL"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F22"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note9"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M20"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 40"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "ZERO 5G 2023"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO POVA 4 Pro"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 6a"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11 Pro+"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 IV"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R5G SH-R50"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S9+"
+  },
+  {
+    "manufacturer": "BALMUDA",
+    "model": "BALMUDA Phone"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 plus SH-M11"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 9RT 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g71 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 11"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO POVA 2"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M52 5G"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix HOT 40 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab A8"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S7 "
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC U23"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 10T 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "PFFM10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S23"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5 II"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8T"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11i HyperCharge"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone 7 series"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno2 Z"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "三星 W21 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola razr 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(7) power"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "F11 Pro"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8 Sirocco"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "P20 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one zoom"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 9 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 10R 5G"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 SH-02M"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11S"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 10倍变焦版"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S8"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S6 Lite"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R3 SHV44"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 7 plus"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S7 FE"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 Pro 5G"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R8"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V29"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "realme 3Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Y200 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Feel2"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g200 5G"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R5G SHG01"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20 5G"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 9 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K20"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note10+ 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13 Pro"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 III"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "nova 4"
+  },
+  {
+    "manufacturer": "Umx(Ultimate Mobile Experience)",
+    "model": "U693CL"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MIX 2S"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 IV"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2 Pro 中国版"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R5G 908SH"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense6"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 V"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g power (2022)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note8"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense4 lite SH-RM15"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g power"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S7 edge"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "VELVET"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord CE 2 Lite 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno Z 中国版"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus (2021)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A14 5G"
+  },
+  {
+    "manufacturer": "Lenovo Mobile",
+    "model": "Lenovo Tab P10"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12X"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10S"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense7 plus"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ZenFone AR"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X50 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20 FE 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 Ultra"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8 5G "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S4"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F3"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Z3i"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 5pro"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13T"
+  },
+  {
+    "manufacturer": "T-Mobile",
+    "model": "REVVL 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g53y 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 III"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M22"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S21 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note10 Lite"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X80"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g power (2021)"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "I project"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A90 5G"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X4 GT"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2 Neo/Reno3 Pro"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT NEO 3"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Yoga Tab 11"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note10+"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 40"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A20"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5 V"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S7 Edge"
+  },
+  {
+    "manufacturer": "Mi",
+    "model": "Mi 11 X"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Fold4"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I2202"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ2"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "Q92"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero2 SH-01M"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10+"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno5 pro"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "联想平板电脑 启天K10c"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Fold"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 6.1 Plus"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 17 Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 1813"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "三星W20"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 III Lite"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Moto X (4)"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R6"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Mate 20"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip5"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(50)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO 9 Pro"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme XT"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus 5G - 2023"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "EC55"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 20 fusion"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 11 Pro"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 2"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 7"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A32"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO POVA 4"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7T"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 basic"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10T 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S7"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "Nexus 5X"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 8"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC52x"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S22"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S21 Ultra 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord N200 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11 Pro 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20 FE"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K40 Pro"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo K13 Note"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P12 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20 Ultra 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 30 ultra"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord N30 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 6.1"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO M3 Pro 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 19 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy J7 Pro"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 V"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab Extreme"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A25 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 8T"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 20s Pro 5G "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S23 Ultra"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M21 2021 Edition"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A23 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ2 Compact"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia E4g Dual"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno7 A"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10 pro"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ3"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 10x Zoom"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 8 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A71 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20+ 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F62"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense8"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense6s"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R8 pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "V50 ThinQ"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R7"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy XCover6 Pro"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 10 Pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "K71"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M33 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord N10 5G"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "G8S ThinQ"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense4 plus"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A3(2017)"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 6"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8.1"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 DISCOVERY EDITION"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT NEO 3T"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "V30"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A70"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 9 Pro"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR Magic4 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "心系天下 三星 W23 Flip"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 Ultra"
+  },
+  {
+    "manufacturer": "Umx(Ultimate Mobile Experience)",
+    "model": "U3AR"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC52"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ1"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S8+"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X100 Pro"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 5"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 标准版"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero2 SH-Z20"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S9"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I2012"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X5"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge plus"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "HUAWEI Mate 20 X (5G)"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one vision"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 11 5G 中国版"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 5Pro"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense4 SH-41A"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG G7 fit"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC53"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A55s 5G"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "moto tab g62 LTE"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 12 2023"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12 Lite"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A53 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "ThinkPhone by Motorola"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A51 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A80"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5 IV"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Y100"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "POCO F1"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 FE"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 10x room"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 13 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8.3 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 20 Pro"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO POVA 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 18 Premier"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8 Ultra"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note20 Ultra 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A78 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1934A"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno2 Z 中国版"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 Pro+ 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord 3 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(7)"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero5G basic"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 30 5G"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab M10 Plus 3rd Gen"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A22 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy J5 Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S23 FE"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S22 Ultra"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies ET51"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "T2 Pro 5G"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO X"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Neo7"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F3 GT"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A7"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Z7s 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A7(2017)"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia Ace III"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "nova 3i"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2047"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "PHANTOM X2 Pro 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 7.2"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ1 Compact"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi A3"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 3a"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR Magic5 Ultimate"
+  },
+  {
+    "manufacturer": "NEC",
+    "model": "LAVIETab T12 12QHD1"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Honor 8X"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi civi2"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 plus　サウンド SHV46"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 18P"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy J5"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme X3"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V27"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A52"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12T Pro"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "HUAWEI P30"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord CE 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g72"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S24"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g31"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one 5G ace"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V29e"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A8(2018)"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 19 Pro 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": " Galaxy Tab S6 "
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V29 Lite 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno9 A"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S20+"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "Phantom 9"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one 5G UW ace"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R5G SH-RM14"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F41"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno4 Lite"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ Premium"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(9)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2130"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K60"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 20"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V25"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 30"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realmeGT Neo5 240W"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 5.4"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH1907"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus (2022)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S24 Ultra"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC77"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pad 5"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno3 A"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno7 Z 5G/F21 Pro 5G/Reno8 Lite 5G"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG G8 ThinQ™"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "Q61"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S7+"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 30 VIP "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A6"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2161"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(7) play"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 10 Pro 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 7.1"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "K5"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A22"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "Q8"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X3"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A50"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO SPARK 20 Pro+"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno Z"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord N20 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A7 (2018)"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2126"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "EC50"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "真我V13 5G"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "Android One S10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab Active5 5G"
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC U23 pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 FE+ 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "K30 PRO"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 8"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus5"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S24+"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K30S Ultra"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M31s"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno4 5G "
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "P30 Pro"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 Plus"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8 Ultra 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note10"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi K30 Pro Zoom Edition"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "PDKT00"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC26"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A32 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Moto G (5S) Plus"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Moto Z(3)"
+  },
+  {
+    "manufacturer": "Vertex",
+    "model": "Impress Tiger"
+  },
+  {
+    "manufacturer": "Fujitsu",
+    "model": "arrows NX9 F-52A"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one hyper"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A72"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M62"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 3a XL"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V27 Pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG WING"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A30"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S22+"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R3 SH-04L"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme X2"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno Ace"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 11S"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V25 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A30s"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC58"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO M5s"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2 Lite"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g 5G (2022)"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero5G basic DX"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A71"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "ET40"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 2 XL"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO8"
+  },
+  {
+    "manufacturer": "FCNT",
+    "model": "arrows BZ03"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1824A"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "Leitz Phone 2"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Moto Z (2) Force"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A34 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K20 Pro"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8 V 5G UW"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo K12 Note"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "POVA 5 Pro 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia G50"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find N"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC78"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 4Z 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "PEYM00"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Lenovo K12 Pro"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 lite 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2145"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pad 6"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2249"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "realme X"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab A9+"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(8) power"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10e"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2251"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero6"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR 90"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X3 Pro"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno7 5G"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 7i"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S21 FE 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "R17 Pro"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "K3"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG VELVET"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S7"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Fold3 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 5G"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 5a 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Smartphone for Snapdragon Insiders"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 30 fusion"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Q9 One"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g54 5G"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC57"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord2 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "PHANTOM X2 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1913A"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g32"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme X2Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG V35 ThinQ"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "三星W22 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 9 Lite"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC21"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g84 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find N3"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(60)s"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "P20"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A54 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V30 Lite"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M31"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2046"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g62 5G"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 4 XL"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia XZ2 Premium"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno Ace2"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9+"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 20 Premier 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO 12"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "12"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 2 中国版"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab Active4 Pro 5G"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "moto tab g62"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Motorola one"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 16 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S5e"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 6Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7 Pro"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 II"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11 Lite"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K60 Ultra"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 8"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A5(2017)"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g42"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone II"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Zenfone 11"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "PORSCHE DESIGN HUAWEI Mate RS"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2061"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10T Lite"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K40"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A70s"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11 Pro"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 Turbo"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A41"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1928A"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X90"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Mate 20 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A42 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord CE 2"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno10 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(30)"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone 3"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X6 Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 9 Pro 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ZenFone Ares (ZS572KL)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A50s"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 30 neo"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8T+ 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone 6 series"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2282A"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F42 5G"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F2 Pro"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 SH-M12"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno10 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g52j 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus 5G (2022)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S21+ 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X2 中国版"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2043"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11T Pro + "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Fold2 5G"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG style2"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S3"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Q70"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies ET56"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11 Lite 5G NE"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO M4 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S6 5G"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Q6"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1901K"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one power"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A23"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Pad 2"
+  },
+  {
+    "manufacturer": "LitByLeia",
+    "model": "LUME"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR Magic6 Lite 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno8 T"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 10 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A24"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A52 中国版"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab M11"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one fusion"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I1927"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A20s"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip3 5G"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "12R"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": " Galaxy A53 5G "
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Zenfone 9"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno10 Pro 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia PRO-I"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "ZERO ULTRA"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g 5G - 2023"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Fold5"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel Tablet"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2053"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 5"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus6T"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Neo7 Pro"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC57x"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 6"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 30 Pro"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "HONOR View20"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 FE 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH1989"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "JOJO"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M30s"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno5 A"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense5G SH-S50"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11 Ultra"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A79 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A52s 5G"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero2 906SH"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X50"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(20)"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 Lite zoom"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy XCover Pro"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "Android One S9"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A83"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO X NEO"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(6) plus"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 9 Pro Max"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2113"
+  },
+  {
+    "manufacturer": "Itel",
+    "model": "itel S24"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Pad"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "PHANTOM V Fold"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": " Galaxy A23 5G "
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge s"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 2005"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab Active Pro"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11S 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one fusion+"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab A9+ 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 30"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g51 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A51"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V25e"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 8"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MIX 3"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X3 NFC"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 6 Pro"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno5 Lite"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "PHANTOM X"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "REDMAGIC 7Pro"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "DuraSport 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10i "
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find N3 Flip"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "NOTE 12 VIP"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11T"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2124"
+  },
+  {
+    "manufacturer": "T-Mobile",
+    "model": "REVVLRY+"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Y79A"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "PHANTOM V Flip 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2025"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 7a"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "TORQUE G04"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Y200e 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 12 Pro"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO 20"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2021"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "A103ZT"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "T2"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 Pro"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X4 Pro 5G"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "Z839"
+  },
+  {
+    "manufacturer": "General Mobile",
+    "model": "GM 9 Plus"
+  },
+  {
+    "manufacturer": "Coolpad",
+    "model": "Coolpad 3706AS"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "HC50"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(8) power lite"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F5"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 16 Premier"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno4 Pro 中国版"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola razr plus 2023"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 2018"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab A7"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO M2 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(50) 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 13 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A35 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ZenFone AR (ZS571KL)"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI CC 9e"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno6 Z 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge (2021)"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO CAMON 16"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 12 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8+"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2132"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11 Lite 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M34 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13 Ultra"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense4 basic A003SH"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M23 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10 5G"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 11 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find N2 Flip"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Mi  9T  Pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "G Pad 5 10.1 FHD"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A8+(2018)"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero2 SHV47"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 SHV45"
+  },
+  {
+    "manufacturer": "NEC",
+    "model": "LAVIE Tab 102K1"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Note 6"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola razr 2022"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 10 Pro 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Zenfone 8 Flip"
+  },
+  {
+    "manufacturer": "Tecno Mobile",
+    "model": "POVA 5 Pro 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone 5 series"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi Note 10 Lite"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola razr 2023"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "PDYT20"
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC Desire 21 Pro 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 Professional Edition"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note10 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 9"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 7"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "RMX3771"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 12"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note20"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "V30+"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 11R 5G"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 6"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Stylo 5"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 8 pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Quantum2"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ZenFone 6 (ZS630KL) (WW) / 6Z (ZS630KL) (IN)"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme narzo 20 Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1930"
+  },
+  {
+    "manufacturer": "Starlight",
+    "model": "venus"
+  },
+  {
+    "manufacturer": "FCNT",
+    "model": "arrows We F-51B"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO 8i"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "ROG Phone 6D Ultimate"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone (1)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Z7 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2527"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 40 Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2105"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme  X7 Max"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g73 5G"
+  },
+  {
+    "manufacturer": "Vsmart",
+    "model": "Live 4"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "Z6561J"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "DuraForce Ultra 5G"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme Q"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi  Note  7 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(8) plus"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "TORQUE G06"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 (2nd Gen)"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "nubia Pad 3D"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2455"
+  },
+  {
+    "manufacturer": "NEC",
+    "model": "LAVIE Tab T11 "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "心系天下 三星 W23"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S23+"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 9R"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme  GT 5G"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 Pro (2nd Gen)"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 10 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7T Pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG G7 ThinQ"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus Nord 2T 5G"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X7 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 3.4"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Zenfone 10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A40"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "ET45"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "S7"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I2009"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 4a"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone (2)"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "TORQUE(R) 5G"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia PRO"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "A003ZT"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "VELVET 2 PRO"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "K92"
+  },
+  {
+    "manufacturer": "RED",
+    "model": "H1A1000"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1981A"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense7"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG V60 ThinQ 5G"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 4"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K30"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "T2 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I2017"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG V60 ThinQ"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme GT Master Edition\t"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR Magic Vs"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 8 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(6)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Z5"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab Active3"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2050"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F4 GT"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto z4"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K40 Gaming"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g stylus (2023)"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(8) play"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi Note 10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy J7(2017)"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 40 pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "Open"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO 11"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO 9 SE"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M32"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A52 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge plus 5G UW (2022)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9+ 5G"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Mate 20 lite"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Jump3"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 plus SH-RM11"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi  Note  7"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X90 Pro"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "HUAWEI Y9 2019"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A33 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V1930A"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT3 240W"
+  },
+  {
+    "manufacturer": "Vsmart",
+    "model": "Aris"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P12"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy TabS3"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g82 5G"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X3"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5 III"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Lenovo K13 Note"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g power 5G - 2023"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8+ 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K40S"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "TECNO POVA 6 Pro 5G "
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme X50 Pro"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Stylo 5+"
+  },
+  {
+    "manufacturer": "Oneplus",
+    "model": "BE2029"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR 70"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "realme 5"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola one action"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo Z3x"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Note20 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M53 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto z3 play"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT5 240W"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 11 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi K50i"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A73 5G"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 5G"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia X10"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 40 neo"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R3 SH-R10A"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG Stylo 7"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 7"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2207"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 3"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel XL"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense4 SH-M15"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo K13 Pro"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 9 SE"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "Leitz Phone1"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 7 Pro"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "narzo 50 Pro 5G"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "POVA 5"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X100"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "TB360ZU"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG G6"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "V40 ThinQ"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8 5G UW"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno4 Pro 5G"
+  },
+  {
+    "manufacturer": "Micromax",
+    "model": "IN_Note2"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7 Pro 5G"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "A202ZT"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO X Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "I2011"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "nova 3"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F54 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 11 Pro"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 3Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 1913"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 8 Pro"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10 JE"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g 5G plus"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR Magic V2"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X3 Pro"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 7 Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Y36 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 9T"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 Ultra 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A92"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme narzo 30 5G"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Honor 10"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy F14 5G"
+  },
+  {
+    "manufacturer": "Fujitsu",
+    "model": "F-51A"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 10 Lite"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS zero2 SH-M13"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Z7 Pro 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno4 中国版"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "G8X ThinQ"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X2"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 9"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme 6s"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 7 5G"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC27"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 1912"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Find X5 Pro"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "POCO F5"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S9 FE+"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "realme X Lite"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG style3"
+  },
+  {
+    "manufacturer": "FCNT",
+    "model": "arrows We A101FC"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix ZERO 30"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge s pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g52"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 8 SE"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(60)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO 9T"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Honor Magic 2"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12S"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11T Pro"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 1919"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra Technologies TC72"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "DuraForce PRO 3"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge 2023"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(7) plus"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Nexus 6P"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11X Pro"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT 2 Pro\t"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno3 Pro"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R3 808SH"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F4"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 11i"
+  },
+  {
+    "manufacturer": "Honor",
+    "model": "HONOR X9a 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A20e"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "NX563J"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno A"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia X30 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Z1"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo NEX S"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "Infinix NOTE 11"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A52"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 12 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13T Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A60"
+  },
+  {
+    "manufacturer": "FCNT",
+    "model": "arrows We FCG01"
+  },
+  {
+    "manufacturer": "LGE",
+    "model": "LG V50 ThinQ"
+  },
+  {
+    "manufacturer": "Tecno",
+    "model": "CAMON 20 Pro 5G "
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A15 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2247"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "V2045"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy XCover7"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A13 5G"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "vivo 1805"
+  },
+  {
+    "manufacturer": "Kyocera",
+    "model": "DIGNO SANGA edition"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "ZERO 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10 Lite"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "ZERO 30 5G"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS R5G SH-51A"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab Active5"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X80 Pro"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S10+ Olympic Games Edition"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8 Pro"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(9) plus"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPG02_jp_kdi"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno8 Pro 5G"
+  },
+  {
+    "manufacturer": "Wiko",
+    "model": "View3 Pro"
+  },
+  {
+    "manufacturer": "FCNT",
+    "model": "arrows N F-51C"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "P20 lite"
+  },
+  {
+    "manufacturer": "Vsmart",
+    "model": "Aris Pro"
+  },
+  {
+    "manufacturer": "Honeywell",
+    "model": "CT40"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S8"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno8 T 5G"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g fast"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel 4a (5G)"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "iQOO Z7x 5G"
+  },
+  {
+    "manufacturer": "Rakuten",
+    "model": "Rakuten Hand5G"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "TC73"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Tab S6"
+  },
+  {
+    "manufacturer": "Blu",
+    "model": "Vivo XL4"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11 Pro+ 5G"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy M51"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno3 Pro 5G中国版"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "PCRT01"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g34 5G"
+  },
+  {
+    "manufacturer": "Asus",
+    "model": "Zenfone 8"
+  },
+  {
+    "manufacturer": "Honeywell",
+    "model": "CT30XP"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "X50 Pro"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2293"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "AQUOS sense3 plus (901SH)"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus5T"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2211"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "A303ZT"
+  },
+  {
+    "manufacturer": "Infinix",
+    "model": "GT 10 Pro "
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "OPPO Reno8 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "A98 5G"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 12 Pro Speed"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10T Pro"
+  },
+  {
+    "manufacturer": "Itel",
+    "model": "itel S23+"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "motorola edge (2022)"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A31"
+  },
+  {
+    "manufacturer": "Unitech",
+    "model": "PA768"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "realme X50 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "CPH2159"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11T Pro"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 7T Pro 5G"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno 10x Room"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(10)"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "moto g(9) power"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Pixel Fold"
+  }
 ]
