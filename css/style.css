@@ -2,48 +2,65 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
+    /* Reduced padding */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Center vertically */
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
+    /* Slightly narrower */
     width: 100%;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
+    /* Reduced padding */
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Use gap for spacing */
 }
 
 h1 {
     text-align: center;
     color: #333;
-    margin-bottom: 30px;
+    margin: 0 0 10px 0;
+    /* Reduced margin */
+    font-size: 1.5rem;
+    /* Smaller font */
 }
 
 h2 {
     color: #555;
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+    font-size: 1rem;
+    /* Smaller font */
+    margin: 0 0 10px 0;
     border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .card {
     background-color: #fff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px;
+    /* Reduced padding */
+    margin: 0;
+    /* Validation handled by container gap */
 }
 
 .info-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    /* Tighter rows */
+    font-size: 0.9rem;
 }
 
 .label {
@@ -53,15 +70,22 @@ h2 {
 
 .value {
     color: #333;
+    text-align: right;
 }
 
+/* Status Cards Container for Side-by-Side on wider screens if needed, 
+   but for mobile vertical stack is usually better. 
+   To fit on one screen, we just make them smaller. */
+
 .status-indicator {
-    padding: 15px;
-    border-radius: 8px;
+    padding: 10px;
+    /* Reduced padding */
+    border-radius: 6px;
     text-align: center;
     font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    /* Smaller font */
+    margin-bottom: 5px;
     color: white;
 }
 
@@ -71,20 +95,25 @@ h2 {
 }
 
 .status-indicator.supported {
-    background-color: #2da44e; /* Green */
+    background-color: #2da44e;
+    /* Green */
 }
 
 .status-indicator.unsupported {
-    background-color: #cf222e; /* Red */
+    background-color: #cf222e;
+    /* Red */
 }
 
 .status-indicator.unknown {
-    background-color: #d29922; /* Yellow/Orange */
+    background-color: #d29922;
+    /* Yellow/Orange */
 }
 
 .status-detail {
     text-align: center;
     color: #666;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    /* Smaller font */
     margin: 0;
+    line-height: 1.3;
 }
