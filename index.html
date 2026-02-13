@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR 支援檢查器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/1.0.35/ua-parser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AR 支援檢查器</h1>
+
+        <div class="card" id="device-info">
+            <h2>設備資訊</h2>
+            <div class="info-row">
+                <span class="label">供應商:</span>
+                <span class="value" id="vendor">檢測中...</span>
+            </div>
+            <div class="info-row">
+                <span class="label">型號:</span>
+                <span class="value" id="model">檢測中...</span>
+            </div>
+            <div class="info-row">
+                <span class="label">作業系統:</span>
+                <span class="value" id="os">檢測中...</span>
+            </div>
+        </div>
+
+        <div class="card status-card">
+            <h2>ARCore 支援</h2>
+            <div id="arcore-status" class="status-indicator loading">檢查中...</div>
+            <p class="status-detail" id="arcore-detail"></p>
+        </div>
+
+        <div class="card status-card">
+            <h2>LiGAR 支援</h2>
+            <div id="ligar-status" class="status-indicator loading">檢查中...</div>
+            <p class="status-detail" id="ligar-detail"></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

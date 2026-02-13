@@ -1,0 +1,13 @@
+[
+  { "manufacturer": "Google", "model": "Pixel 6" },
+  { "manufacturer": "Google", "model": "Pixel 6 Pro" },
+  { "manufacturer": "Google", "model": "Pixel 7" },
+  { "manufacturer": "Google", "model": "Pixel 7 Pro" },
+  { "manufacturer": "Google", "model": "Pixel 8" },
+  { "manufacturer": "Samsung", "model": "Galaxy S21" },
+  { "manufacturer": "Samsung", "model": "Galaxy S22" },
+  { "manufacturer": "Samsung", "model": "Galaxy S23" },
+  { "manufacturer": "Samsung", "model": "Galaxy S24" },
+  { "manufacturer": "Apple", "model": "iPhone" },
+  { "manufacturer": "Apple", "model": "iPad" }
+]

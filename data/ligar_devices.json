@@ -1,0 +1,26 @@
+[
+    {
+        "manufacturer": "Apple",
+        "model": "iPhone"
+    },
+    {
+        "manufacturer": "Apple",
+        "model": "iPad Pro"
+    },
+    {
+        "manufacturer": "Google",
+        "model": "Pixel 6 Pro"
+    },
+    {
+        "manufacturer": "Google",
+        "model": "Pixel 7 Pro"
+    },
+    {
+        "manufacturer": "Samsung",
+        "model": "Galaxy S21 Ultra"
+    },
+    {
+        "manufacturer": "Samsung",
+        "model": "Galaxy S22 Ultra"
+    }
+]
