@@ -91,17 +91,33 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('arcore-detail').textContent = '載入設備列表時發生錯誤。';
     }
 
-    try {
-        const ligarResponse = await fetch('data/ligar_devices.json');
-        ligarDevices = await ligarResponse.json();
-    } catch (e) {
-        console.error('Failed to load LiGAR list', e);
-        document.getElementById('ligar-detail').textContent = '載入設備列表時發生錯誤。';
-    }
-
     // 4. Check Support
-    // 4a. Check LiGAR Support (List-based)
-    checkSupport(vendor, model, ligarDevices, 'ligar');
+    // 4a. Check LiGAR Support (Supabase)
+    const ligarStatusEl = document.getElementById('ligar-status');
+    const ligarDetailEl = document.getElementById('ligar-detail');
+
+    try {
+        if (!supabase) throw new Error('Supabase client not initialized');
+
+        // Fetch all devices (or filtering by vendor server-side would be better optimization later)
+        // For now, to match existing logic, we fetch all.
+        // Optimization: We could do .select('*').ilike('manufacturer', `%${vendor}%`) to reduce data transfer
+
+        let query = supabase.from('ligar_devices').select('*');
+
+        const { data, error } = await query;
+
+        if (error) throw error;
+
+        ligarDevices = data;
+        checkSupport(vendor, model, ligarDevices, 'ligar');
+
+    } catch (e) {
+        console.error('Failed to load LiGAR list from Supabase', e);
+        ligarStatusEl.textContent = '資料庫連線失敗';
+        ligarStatusEl.classList.add('unsupported');
+        ligarDetailEl.textContent = '無法連接至雲端資料庫。請檢查網路或 Config 設定。';
+    }
 
     // 4b. Check ARCore Support (Hybrid: WebXR + List)
     const arStatusEl = document.getElementById('arcore-status');
@@ -125,15 +141,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // WebXR verification failed, fallback to list check
                 // This handles cases where hardware supports it but browser might not (e.g. incorrect flags)
                 // Or simply unsupported.
-                checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+                checkSupport(vendor, model, arcoreDevices, 'arcore');
             }
         } catch (e) {
             console.warn("WebXR check failed, falling back to database", e);
-            checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+            checkSupport(vendor, model, arcoreDevices, 'arcore');
         }
     } else {
         // No WebXR API, fallback to list
-        checkSupport(vendor, model, arcoreDevices, 'arcore', ' (清單比對)');
+        checkSupport(vendor, model, arcoreDevices, 'arcore');
     }
 });
 
@@ -176,36 +192,45 @@ function checkSupport(vendor, model, deviceList, type, suffix = '') {
     // Fuzzy matching logic
     // Find the matching device object
     const matchedDevice = deviceList.find(device => {
-        const jsonVendor = (device.manufacturer || '').toLowerCase();
-        const jsonModel = (device.model || '').toLowerCase();
+        if (type === 'ligar') {
+            // New Schema: brand, model, device_model_name, adapted
+            const jsonVendor = (device.brand || '').toLowerCase();
+            const jsonModel = (device.model || '').toLowerCase();
+            const jsonDeviceName = (device.device_model_name || '').toLowerCase();
 
-        // Check 1: Vendor match (if present)
-        const vendorMatch = !jsonVendor || targetVendor.includes(jsonVendor) || jsonVendor.includes(targetVendor);
+            // Check 1: Vendor match (if present)
+            const vendorMatch = !jsonVendor || targetVendor.includes(jsonVendor) || jsonVendor.includes(targetVendor);
+            if (!vendorMatch) return false;
 
-        if (!vendorMatch) return false;
+            // Check 2: Model match (check against both model and device_model_name)
+            return (jsonModel && (targetModel.includes(jsonModel) || jsonModel.includes(targetModel))) ||
+                (jsonDeviceName && (targetModel.includes(jsonDeviceName) || jsonDeviceName.includes(targetModel)));
+        } else {
+            // Old Schema (ARCore): manufacturer, model
+            const jsonVendor = (device.manufacturer || '').toLowerCase();
+            const jsonModel = (device.model || '').toLowerCase();
 
-        // Check 2: Model match
-        // We split model strings to check specifically for model numbers e.g. "Pixel 6"
-        return targetModel.includes(jsonModel) || jsonModel.includes(targetModel);
+            const vendorMatch = !jsonVendor || targetVendor.includes(jsonVendor) || jsonVendor.includes(targetVendor);
+            if (!vendorMatch) return false;
+
+            return targetModel.includes(jsonModel) || jsonModel.includes(targetModel);
+        }
     });
 
     if (matchedDevice) {
         // Device found in database
         if (type === 'ligar') {
-            // Special handling for LiGAR which has explicit status in JSON
-            if (matchedDevice.status === 'supported') {
+            // Check 'adapted' boolean
+            if (matchedDevice.adapted === true) {
                 statusElement.textContent = '已適配 (支援)';
                 statusElement.classList.add('supported');
-                detailElement.textContent = `此設備型號 (${matchedDevice.model}) 已列於 LiGAR 適配清單中且支援。`;
-            } else if (matchedDevice.status === 'unsupported') {
+                const matchedName = matchedDevice.device_model_name || matchedDevice.model;
+                detailElement.textContent = `此設備型號 (${matchedName}) 已列於 LiGAR 適配清單中且支援。`;
+            } else {
                 statusElement.textContent = '已適配 (不支援)';
                 statusElement.classList.add('unsupported');
-                detailElement.textContent = `此設備型號 (${matchedDevice.model}) 已列於 LiGAR 適配清單中，但標記為不支援。`;
-            } else {
-                // Should not happen if data is clean, but fallback
-                statusElement.textContent = '狀態不明';
-                statusElement.classList.add('unknown');
-                detailElement.textContent = `此設備 (${matchedDevice.model}) 在清單中，但狀態不明。`;
+                const matchedName = matchedDevice.device_model_name || matchedDevice.model;
+                detailElement.textContent = `此設備型號 (${matchedName}) 已列於 LiGAR 適配清單中，但標記為不支援。`;
             }
         } else {
             // Standard check (like ARCore list which implies support if present)
@@ -217,8 +242,8 @@ function checkSupport(vendor, model, deviceList, type, suffix = '') {
         // Device Not found in database
         if (type === 'ligar') {
             statusElement.textContent = '尚未適配';
-            statusElement.classList.add('unknown'); // Or a specific 'not-adapted' class if we want yellow
-            statusElement.style.backgroundColor = '#f1c40f'; // Inline or add to css (Yellow)
+            statusElement.classList.add('unknown');
+            statusElement.style.backgroundColor = '#f1c40f'; // Yellow
             statusElement.style.color = '#fff';
             detailElement.textContent = `此設備 (${model}) 尚未在 LiGAR 適配清單中找到。`;
         } else {
