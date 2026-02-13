@@ -31,6 +31,25 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (uaData.model) {
                 model = uaData.model;
                 modelEl.textContent = model + ' (精確)';
+
+                // Infer vendor from model if unknown
+                if (vendor === '未知供應商' || vendor === 'Unknown Vendor') {
+                    const knownVendors = ['ASUS', 'Samsung', 'Google', 'Xiaomi', 'Oppo', 'Vivo', 'Sony', 'Realme', 'OnePlus', 'Huawei', 'Motorola', 'LG', 'HTC', 'Nokia', 'Lenovo'];
+                    const upperModel = model.toUpperCase();
+
+                    for (const v of knownVendors) {
+                        if (upperModel.includes(v.toUpperCase())) {
+                            vendor = v;
+                            vendorEl.textContent = vendor + ' (推測)';
+                            break;
+                        }
+                        // Special cases
+                        if (upperModel.startsWith('SM-')) { vendor = 'Samsung'; vendorEl.textContent = vendor + ' (推測)'; break; }
+                        if (upperModel.startsWith('Pixel')) { vendor = 'Google'; vendorEl.textContent = vendor + ' (推測)'; break; }
+                        if (upperModel.startsWith('RMX')) { vendor = 'Realme'; vendorEl.textContent = vendor + ' (推測)'; break; }
+                        if (upperModel.startsWith('CPH') || upperModel.startsWith('PGT')) { vendor = 'Oppo'; vendorEl.textContent = vendor + ' (推測)'; break; } // Approximate
+                    }
+                }
             }
 
             if (uaData.platform) {
@@ -54,7 +73,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     model += ` (${glInfo})`;
                     modelEl.textContent = model;
                     vendor = "Apple"; // Force vendor if inferred
-                    vendorEl.textContent = vendor;
+                    vendorEl.textContent = vendor + ' (推測)';
                 }
             }
         }
