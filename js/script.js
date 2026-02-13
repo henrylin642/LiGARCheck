@@ -153,11 +153,13 @@ function getWebGLRenderer() {
     }
 }
 
+
 function checkSupport(vendor, model, deviceList, type, suffix = '') {
     const statusElement = document.getElementById(`${type}-status`);
     const detailElement = document.getElementById(`${type}-detail`);
 
     statusElement.classList.remove('loading');
+    statusElement.classList.remove('supported', 'unsupported', 'unknown', 'not-adapted'); // Clear all classes
 
     // Basic validation
     if ((!vendor || vendor === '未知供應商') && (!model || model === '未知型號') && !model.includes('GPU')) {
@@ -172,7 +174,8 @@ function checkSupport(vendor, model, deviceList, type, suffix = '') {
     const targetModel = (model || '').toLowerCase();
 
     // Fuzzy matching logic
-    const isSupported = deviceList.some(device => {
+    // Find the matching device object
+    const matchedDevice = deviceList.find(device => {
         const jsonVendor = (device.manufacturer || '').toLowerCase();
         const jsonModel = (device.model || '').toLowerCase();
 
@@ -186,13 +189,42 @@ function checkSupport(vendor, model, deviceList, type, suffix = '') {
         return targetModel.includes(jsonModel) || jsonModel.includes(targetModel);
     });
 
-    if (isSupported) {
-        statusElement.textContent = '支援' + suffix;
-        statusElement.classList.add('supported');
-        detailElement.textContent = `此設備型號 (${model}) 已列於 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中。`;
+    if (matchedDevice) {
+        // Device found in database
+        if (type === 'ligar') {
+            // Special handling for LiGAR which has explicit status in JSON
+            if (matchedDevice.status === 'supported') {
+                statusElement.textContent = '已適配 (支援)';
+                statusElement.classList.add('supported');
+                detailElement.textContent = `此設備型號 (${matchedDevice.model}) 已列於 LiGAR 適配清單中且支援。`;
+            } else if (matchedDevice.status === 'unsupported') {
+                statusElement.textContent = '已適配 (不支援)';
+                statusElement.classList.add('unsupported');
+                detailElement.textContent = `此設備型號 (${matchedDevice.model}) 已列於 LiGAR 適配清單中，但標記為不支援。`;
+            } else {
+                // Should not happen if data is clean, but fallback
+                statusElement.textContent = '狀態不明';
+                statusElement.classList.add('unknown');
+                detailElement.textContent = `此設備 (${matchedDevice.model}) 在清單中，但狀態不明。`;
+            }
+        } else {
+            // Standard check (like ARCore list which implies support if present)
+            statusElement.textContent = '支援' + suffix;
+            statusElement.classList.add('supported');
+            detailElement.textContent = `此設備型號 (${matchedDevice.model}) 已列於 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中。`;
+        }
     } else {
-        statusElement.textContent = '不支援';
-        statusElement.classList.add('unsupported');
-        detailElement.textContent = `此設備 (${model}) 未在 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中找到，且未檢測到 WebXR 支援。`;
+        // Device Not found in database
+        if (type === 'ligar') {
+            statusElement.textContent = '尚未適配';
+            statusElement.classList.add('unknown'); // Or a specific 'not-adapted' class if we want yellow
+            statusElement.style.backgroundColor = '#f1c40f'; // Inline or add to css (Yellow)
+            statusElement.style.color = '#fff';
+            detailElement.textContent = `此設備 (${model}) 尚未在 LiGAR 適配清單中找到。`;
+        } else {
+            statusElement.textContent = '不支援';
+            statusElement.classList.add('unsupported');
+            detailElement.textContent = `此設備 (${model}) 未在 ${type === 'arcore' ? 'ARCore' : 'LiGAR'} 資料庫中找到，且未檢測到 WebXR 支援。`;
+        }
     }
 }

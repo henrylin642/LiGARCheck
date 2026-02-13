@@ -1,26 +1,4332 @@
 [
-    {
-        "manufacturer": "Apple",
-        "model": "iPhone"
-    },
-    {
-        "manufacturer": "Apple",
-        "model": "iPad Pro"
-    },
-    {
-        "manufacturer": "Google",
-        "model": "Pixel 6 Pro"
-    },
-    {
-        "manufacturer": "Google",
-        "model": "Pixel 7 Pro"
-    },
-    {
-        "manufacturer": "Samsung",
-        "model": "Galaxy S21 Ultra"
-    },
-    {
-        "manufacturer": "Samsung",
-        "model": "Galaxy S22 Ultra"
-    }
+  {
+    "manufacturer": "360",
+    "model": "N7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_Z01HDA",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "blackshar",
+    "model": "2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "v30 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "htc",
+    "model": "HTC U20 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "htc",
+    "model": "HTC_U-1u",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "ALP-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "P40 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Huawei",
+    "model": "Y9 2019",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Z6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "WING 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "16 s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "16 s Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "note 9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "moto z3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "8.1",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "6.1+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "nubia",
+    "model": "Z 18",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Reno5 Pro Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Reno5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A21s(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A22 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A30(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A30s(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A32 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A42 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A50(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A51(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A52 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A52s 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A60(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A7 (2018)(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A70(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A71(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A71 5G(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A8(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A8+(2018)(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A80(已適配但算力不足)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy tab S7 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "AQUOS sense4 plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "XZ Premium",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "IQOO 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "M3 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "Pocophone F1",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra_TC57",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "Axon 10 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy S21 Fan Edition 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Note 10 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 3a XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno5 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SamSung Galaxy A20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "H9493",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy S21 Ultra 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "IN2010",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "PAR-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo V23 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 9 Pro+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S22+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_I001DC",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google_Pixel 4a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N970U",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "EML-L29",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Mi 11",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_I003DD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A31 (性能不足+幀率不穩定)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find X5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S22",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S22 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Note 11 Pro Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Pad 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Tab S8 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab A8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A33 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A3 (2017)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A5 (2017)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A6 (2018)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A7 (2017)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A20s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A20e",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A23",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A32",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A40",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A41",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A50s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A51 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A52",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A70s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A72",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A90 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy F22",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy F23 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy F41",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy F62",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Z Fold2 5G (Camera 不支援)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy J5 Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy J7 (2017)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M20",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M21",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M23 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M30s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M31",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M31s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M51",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M62",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Note10 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy S10 Lite",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S3",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S5e",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy tab S7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S7 Plus Lite",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "6 Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "7",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "7i",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "7 Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "8 Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "Narzo 20 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "X",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "X3 Super Zoom",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "GT Neo",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia PRO I",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S8 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X60 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "oppo reno 7 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Note 11 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Reno6 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "12X",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Reno8 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo x80",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HMA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "xiaomi",
+    "model": "Redmi Note 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Zenfone 9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Z Fold3 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 5 III (不支援)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 9 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 IV",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "X4 GT",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "F4 GT",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo x70 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Z Fold 4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 6a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Z Flip 4 (無法適配)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 III (無法適配)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 7 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 II (不支援)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 12Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "samsung Galaxy A21s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus Zenfone 8 flip",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Aquos R6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N960F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "xperia 5 II(Camera 不支援)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "GT2 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "GT Master Edition",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "A77",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10T pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 5T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "oppo Reno 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi Note 11S",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V20 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "F3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi Note 11 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "xiaomi",
+    "model": "Redmi Note 7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "xiaomi",
+    "model": "Redmi Note 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi Note 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Rog 6D Ultimate",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "S23 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "VIVO Y72",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G781B",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "NEX 1805(NEX S)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M53",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy S23 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "GT NEO 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "RENO 8T 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "htc",
+    "model": "[M10]",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "moto g51",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A54",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V25",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung A53 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH2371",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH2091",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 5Z",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "XQ-BC72",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "oneplus",
+    "model": "9 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Galaxy A13 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "F5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy A34 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V27",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "10 Pro Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "12 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "moto",
+    "model": "X30 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy S23",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 10 IV(Camera 不支援)",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "Velvet 2 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A42 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme XT",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PEYM00",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo V25 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo X90",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Sony Xperia 10 V",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "htc",
+    "model": "U23 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pad 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find N2 Flip",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus zenfone 10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 11 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "redmi",
+    "model": "Note 12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Flip 5",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "A74 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "Reno 10 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi 12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S7 Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 1 V",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 5 IV",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "huawei",
+    "model": "Mate 10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "Reno10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS R8s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS R8s Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 7a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy Tab S9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ROG Phone 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Xperia 1 IV",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "A98 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO M4 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S9 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "oppo",
+    "model": "Find N3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X100",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG PHONE 6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG PHONE 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find X6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A14 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 12 Pro Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V29",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG PHONE 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 11 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S24 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi Mi A3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 11 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "redmi",
+    "model": "Note 13 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S9 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 11 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S23 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab A9 Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "G Stylus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S24",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S5e",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Reno 8Z",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Zenfone 11 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 11 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 14 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Note 12 Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X100 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A79 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy M33 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "generic",
+    "model": "GCE x86 phone",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "M2102J20SG",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A78 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno7 Z 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS sense8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia X30 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A25 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A55 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 12T Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "GT Neo 2",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A15 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V30",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "real_brand",
+    "model": "A0001",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto Razr 40 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno12 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X5 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT NEO 3T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A35 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 1 VI",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG PHONE 7 Ultimate",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lenovo",
+    "model": "M10 FHD Plus",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "11x 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Z Flip6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Z Fold 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X90 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Y27 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "F6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V40 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "A3 Pro 5G",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy M34 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 9 Pro Fold",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S24 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto Razr 50",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 9 Pro XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M32",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find N3 Flip",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X Flip",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto edge 50 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Pad 6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 13 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto Razr 50 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno10 Pro Plus 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno12 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "Xiaomi POCO F5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus8Pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 9S",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 8a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme narzo 50 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 10 VI",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "string",
+    "model": "string",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "htc",
+    "model": "U24 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Galaxy M12",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 9T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS R9 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno13 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "K61",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X200",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X60 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X200 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S25 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S25 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V50",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 13 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 13 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S10 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "A57",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Note 12S",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 14",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo Y29s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 14x",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find X8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Sony PRO I",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Pad Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 15",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 14T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "ROG",
+    "model": "ROG 9 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno13F 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Motorola edge 50 fusion",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S25",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find X8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pad 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab P11 2nd Gen",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo X90 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A56 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 14T Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung A36",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S25 Edge",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "REDMI Note 10s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo M10",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "samsung Galaxy Tab S4",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V50 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Motorola razr 60",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT 7T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi pad 7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO X6 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "SHARP AQUOS R9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S9 FE Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A16 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab M11",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Tab M10 Plus",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S10 FE+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Pad Air",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Motorola G55 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Sony Xperia 1 VII",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "samsung Galaxy Tab S10 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS R10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS sense7 plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone 2a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "samsung A70",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI P30 pro",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 10",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi 14C",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO C75",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Tab A8 X200",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 15 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo A5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "K80 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Pad SE",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi MIX Flip",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V60",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo Legion Tab",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OUKITEL",
+    "model": "Oukitel WP33 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 10 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone 3a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "MEITU",
+    "model": "MEITU T8s",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 6",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X Fold 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "TCL",
+    "model": "TCL Tab 10S",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "360",
+    "model": "1809-A01",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ROG Phone",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ROG Phone 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Samsung Z Flip7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Samsung S25 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "huawei Pura 70 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A3x",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 4.2",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Samsung tab S11",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 10C",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google pixel 9 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X200 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Motorola Razr 60 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "Honor 50 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS sense9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 13C",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung A26",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno 14 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 15T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 13",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Z Fold 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Pad 3",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Nova 12 Lite",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone 1",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Samsung Tab A7 Lite",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Mate 70",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F7 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 10 PRO XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "Huawei Mate 70 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X300",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Tab S10+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nothing",
+    "model": "Nothing Phone 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Samsung",
+    "model": "Samsung S24 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "EVA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "LDN-AL20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9500",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "VTR-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PAFM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo NEX A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "BKL-AL20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "DUK-AL20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "EVR-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCAM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1838A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "VOG-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "VOG-AL10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PBEM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "DUB-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1836A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "EML-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "LYA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "MHA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "JSN-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCCM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "CLT-AL01",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "COL-AL10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "VCE-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "PCT-AL10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "INE-TL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "JKM-AL00b",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1809A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "LND-AL30",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9730",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI 9 SE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1831A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCAM10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HWI-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "ELE-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "MAR-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCKM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "LLD-AL20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1832A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PBDM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "YAL-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1824BA",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1922A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCLM10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9600",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi K20 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "16s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "16s Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_Z01RD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "Nokia 8.1",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SMARTISAN",
+    "model": "OD103",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "blackshark",
+    "model": "blackshark 2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "SEA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1914A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "TAS-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "SEA-AL10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi K20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MIX 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "J9110",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 3 XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "ZTE",
+    "model": "ZTE A2020 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9300",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G8870",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 2 XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "H8296",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Lenovo",
+    "model": "Lenovo L38111",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "RMX1901",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "meizu",
+    "model": "Note9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "ONEPLUS A6000",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1911A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "GM1900",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "nubia",
+    "model": "NX563J",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "nubia",
+    "model": "NX606J",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "STF-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "ARS-TL00Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "MI CC9 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1917",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A805F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1907",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "G8142",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1979",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1951",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "G3226",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "G3426",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1877",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A530F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A606Y",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N950F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "CLT-L29",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "I4193",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1879",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G965F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N9700",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A505GN",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A307GN",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A750GN",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_X00QD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "OPPO realme 5 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_Z01KD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "SH-Z10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LM-G710",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo 1813",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-A730F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G973F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G975F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_Z012DA",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_Z01QD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 9T Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "PAR-LX9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "INE-LX2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9880",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Redmi K20 Pro Premium Edition",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH1919",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1924A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi MIX 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_I01WD",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "H8166",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi MIX 2S",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G9860",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "ANA-AN00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI mate 30 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N9860",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LM-G850",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G970F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-N770F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 4 XL",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH2025",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "LYA-L29",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LM-G900",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_I003D",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-F700F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo 1913",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LM-V600",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1963A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "K30 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "CPH2089",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-G950F",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "RMX2144",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo 2005",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS_I002D",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "RMX2075",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "SH-R50",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-F7070",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "BLA-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Pixel 4a (5G)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "OXF-AN10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PCLM50",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1955A",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "V1938CT",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SAMSUNG Galaxy Note20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SM-F907N",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "mi 10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "LIO-AL00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "ELS-AN00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "PDPM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LM-F100",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "huawei mate 20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S6 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno3 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Find X2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Find X2 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "VIVO X30 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Mi 10T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SAMSUNG Galaxy S10+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "Sharp AQUOS sense4 plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "SAMSUNG Galaxy S21+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Google Pixel 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo A72",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A52 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "Huawei P30",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo x50e",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Mate 30 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Mi 10 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy J7 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "Mate 20 X",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X7 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S8+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo X50",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo NEX 3S 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno Ace 2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S21 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC Desire 21 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC U23 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HTC",
+    "model": "HTC U24 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "vivo X50 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A51",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "samsung Galaxy S20 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO_PEHM00",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo A53 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HONOR",
+    "model": "Huawei Honor Magic 2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Find X3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "Huawei Porsche Design Mate RS",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S7 edge",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A71 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus ROG Phone 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Mi 11 Lite 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "Google Pixel 3a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A22 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "Sony Xperia 10 III",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo K5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo K7x",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Find X3 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno4 SE 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus Zenfone 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "xiaomi",
+    "model": "Xiaomi Redmi Note 8T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Zebra",
+    "model": "Zebra_ET56",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno5 K 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno5 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme Q2 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "Oppo Reno5 Pro+ 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "Huawei Y9 2019",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A32 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X50 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X2 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme X7 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pocophone F1",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Xiaomi Redmi Note 10 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo iQOO 5 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo iQOO U1",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo iQOO Z1x",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo iQOO Neo3 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S10 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Mi 8 SE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo Y70s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo S7 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A71",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Tab S7 FE 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Mate 40",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova 7 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Mate 40 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI P40 Pro+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova 8 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Z Flip3 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme GT 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno4 Z 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A30",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI mate 30e pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova 7 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova 8 SE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI nova7 SE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Nova 5Z",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Y6 2019",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang10 plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "blackshark",
+    "model": "blackshark 4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI Nova 5i",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang 10s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI maimang 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang 20 se",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang 20",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI changxiang 20 plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "HUAWEI mate 10 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 5a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A52s 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "lge G8S ThinQ",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11 Lite 5G NE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "Xiaomi POCO M3 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S21 FE 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Mi 9T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 8T",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi 11 Pro+ 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi Pad 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S8 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S8+",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S9 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Tab S9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi Note 11 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 11T Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO reno 6 pro 5g",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "asus Rog 6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 12x",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "oppo reno 8 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus zenfone 9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus zenfone 11 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "Asus zenfone 12 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Z Fold 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "poco x4 gt",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "poco f4 gt",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Z Fold 4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Z Fold 5",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "google",
+    "model": "google Pixel 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "sony Xperia 5 V",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "poco f3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "Xiaomi 13T Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "SHARP",
+    "model": "sharp aquos r6",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme gt2 pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme gt master edition",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A77",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 11s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 12 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 13 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "redmi note 14 Pro Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG 6D Ultimate",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ASUS ROG PHONE 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "asus",
+    "model": "ROG 9 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S23 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "VIVO NEX 1805(NEX S)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung M53",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung S23 Ultra",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "Realme GT NEO 3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 8T 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Find N3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 10 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 10",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A74 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO A98 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno 8Z",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno11 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OPPO",
+    "model": "OPPO Reno13",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "Realme 10Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "motorola moto g51",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "motorola moto g55",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V25",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A54",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy M14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "model": "OnePlus 9 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A13 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F5 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "POCO",
+    "model": "POCO F6 Pro 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy A34 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V27",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "vivo",
+    "model": "Vivo V40 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "realme",
+    "model": "realme 10 pro+ 5G",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi 12 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "model": "xiaomi Pad 6 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto X30 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto G Stylus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "motorola",
+    "model": "Moto G34",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S23",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S24 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy Z Flip7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "samsung",
+    "model": "Samsung Galaxy S25 FE",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "HUAWEI",
+    "model": "huawei P50 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "lge",
+    "model": "LG VELVET 2 PRO",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone SE (1st generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 6s",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 6s Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 7",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 7 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 8",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 8 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone X",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone XS",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone XS Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone XR",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 11",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 11 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone SE (2nd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 12",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 12 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 12 mini",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 13 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 13 mini",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 13",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone SE (3rd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 14 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 14 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 15",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 15 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 15 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 17 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 17",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 16 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 16",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPhone 16 Plus",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (11-inch)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch) (3rd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (11-inch) (2nd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air (3rd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (7th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch) (4th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad mini (5th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (6th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (8th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air (4th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (10.5-inch)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (5th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (9.7-inch)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch) (2nd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (11-inch) (3rd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch) (5th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (12.9-inch) (6th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (9th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad mini (6th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air (5th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air 11 M2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air 13 M2",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Air (11-inch) M3",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro (11-inch) (4rd generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad (10th generation)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro 11 M4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Pro 13 M4",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Apple",
+    "model": "iPad Mini 7 (A17 Pro)",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Oppo",
+    "model": "Oppo Find X9",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Vivo X300 Pro",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "ASUS",
+    "model": "ASUS ROG Phone 6D",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Sharp",
+    "model": "Sharp AQUOS Wish 4",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Vivo",
+    "model": "Vivo V60 Lite",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Motorola",
+    "model": "Motorola Edge 60 Fusion",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Realme",
+    "model": "Realme 14",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "Redmi",
+    "model": "Redmi_25062RN2DY",
+    "status": "unsupported"
+  },
+  {
+    "manufacturer": "Google",
+    "model": "Google Pixel 9a",
+    "status": "supported"
+  },
+  {
+    "manufacturer": "UVC",
+    "model": "Sonix + Anglerfish mic . (Q3)",
+    "status": "supported"
+  }
 ]
